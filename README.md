@@ -4,7 +4,7 @@ This repository contains the code for cloud-aware optical–radar land-cover map
 
 ## Synthetic Cloud Generation
 
-For synthetic cloud generation on the DFC2020 data, we used the cloud simulation strategy from [SatelliteCloudGenerator: Controllable Cloud and Shadow Synthesis for Multi-Spectral Optical Satellite Images](https://www.mdpi.com/2072-4292/15/17/4138). The generator provides controllable cloud configurations that simulate different cloud appearances by changing cloud thickness, transparency, and locality.
+For synthetic cloud generation on the DFC2020 data, we used the cloud simulation strategy from [SatelliteCloudGenerator: Controllable Cloud and Shadow Synthesis for Multi-Spectral Optical Satellite Images](https://www.mdpi.com/2072-4292/15/17/4138). The generator provides controllable cloud configurations that simulate different cloud appearances by changing cloud thickness, transparency, and locality. The code used to regenerate and inject synthetic clouds into the DFC2020 samples is provided in SatelliteCloudGeneratorDFC2020.py.
 
 The cloud configurations follow the four cloud types reported in the SatelliteCloudGenerator paper:
 
